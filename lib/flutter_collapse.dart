@@ -16,7 +16,7 @@ class Collapse extends StatelessWidget {
     this.body,
     this.onChange,
     this.showBorder = true,
-    this.padding = const EdgeInsets.symmetric(vertical: 10, horizontal: 15),
+    this.padding = const EdgeInsets.symmetric(vertical: 3, horizontal: 15),
   }) : super(key: key);
 
   /// 标题
@@ -53,7 +53,7 @@ class Collapse extends StatelessWidget {
           /// title
           InkWell(
             child: Container(
-              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 15),
+              padding: const EdgeInsets.symmetric(vertical: 3, horizontal: 15),
               decoration: BoxDecoration(
                   border: Border(
                       bottom: BorderSide(
